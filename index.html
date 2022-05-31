@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to nginx!</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1>Welcome to <p class="rotating inline">nginx</p>!</h1>
+		<p>If you see this page, the nginx web server is successfully installed and
+		working. Further configuration is required.</p>
+
+		<p>For online documentation and support please refer to
+		<a href="http://nginx.org/" id="l1">nginx.org</a>.<br/>
+		Commercial support is available at
+		<a href="http://nginx.com/" id="l2">nginx.com</a>.</p>
+
+		<p id="thxText"><em>Thank you for using nginx.</em></p>
+		
+		<script src="./runAway.js"></script>
+		<script>
+			initRunning(document.getElementById('l1'));
+			initRunning(document.getElementById('l2'));
+			initRunning(document.getElementById('thxText'));
+			initColor(document.getElementById('thxText'));
+		</script>
+	</body>
+</html>
