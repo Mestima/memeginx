@@ -4,6 +4,14 @@ body {
 	font-family: Tahoma, Verdana, Arial, sans-serif;
 }
 
+.org {
+	margin-left: 4.1em;
+}
+
+.com {
+	margin-left: 4.5em;
+}
+
 .inline {
 	display: inline-block;
 }
